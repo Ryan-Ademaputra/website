@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/src/output.css" rel="stylesheet">
     <title>Document</title>
+    <style>
+        .costum-black{
+            background-color: #222;
+        }
+        .costum-blue{
+            color: #00c3ff;
+        }
+    </style>
+   
 </head>
-<body>
+<body class="costum-black">
+    <header class="flex justify-between items-center fixed w-full top-0 right-0 p-8 text-white">
+        <a href="#" class="text-3xl font-semibold hover:text-blue-500 pl-4 transition-colors duration-200">NayrTech.</a>
     
+        <ul class="flex gap-6 font-medium">
+            <li><a href="#" class="hover:border-b-2 border-solid border-white transition-colors duration-300">Home</a></li>
+            <li><a href="#" class="hover:border-b-2 border-solid border-white transition-colors duration-500">About</a></li>
+            <li><a href="#" class="hover:border-b-2 border-solid border-white transition-colors duration-300">Skill</a></li>
+            <li><a href="#" class="hover:border-b-2 border-solid border-white transition-colors duration-300">Contact</a></li>
+            <li><a href="#" class="hover:border-b-2 border-solid border-white transition-colors duration-300">Service</a></li>
+        </ul>
+    </header>
+
+
+   <section class="flex justify-start items-center h-screen">
+        <div class="text-white text-left m-52">
+            <h2 class="font-medium text-3xl leading-8">Hallo,</h2>
+            <h1 class="font-semibold text-4xl leading-8">Im FullStack Developer</h1>
+            <a href="#" class="inline-block border-2 border-solid mt-5 px-10 py-2 rounded-md">Next</a>
+        </div>
+
+        <img src="/src/assets/user.jpg" class="w-20 h-20 rounded-full">
+        
+   </section>
 </body>
 </html>
